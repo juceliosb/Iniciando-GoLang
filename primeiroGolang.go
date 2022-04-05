@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"modulo/auxiliar"
+)
 
 func main() {
 	fmt.Println("Ola Mundo!!!")
+	auxiliar.Escrever()
 
 }
